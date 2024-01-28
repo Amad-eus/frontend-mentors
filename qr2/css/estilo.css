@@ -1,6 +1,6 @@
 body {
     font-family: "Outfit", sans-serif;
-    background-color: hsl(212, 45%, 89%);
+    background-color: black;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -14,7 +14,7 @@ body .container {
 }
 
 body .container .cartao {
-    background-color: black;
+    background-color: white;
     padding: 18px;
     border-radius: 17px;
     text-align: center;
