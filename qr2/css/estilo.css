@@ -1,0 +1,41 @@
+body {
+    font-family: "Outfit", sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+body .container {
+    /* background-color: black; */
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+body .container .cartao {
+    background-color: white;
+    padding: 18px;
+    border-radius: 17px;
+    text-align: center;
+    margin: 0 1rem;
+}
+
+body .container .cartao img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+body .container .cartao .textos {
+    padding: 22px 10px;
+}
+
+body .container .cartao .textos h2{
+    color: hsl(218, 44%, 22%);
+    padding-bottom: 15px;
+}
+
+body .container .cartao .textos p{
+    color: hsl(220, 15%, 55%);
+    padding-bottom: 15px;
+}
