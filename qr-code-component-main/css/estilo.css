@@ -12,10 +12,11 @@ body main {
 }
 
 body main .cartao {
-    max-width: 350px;
+    width: 320px;
+    height: 500px;
     margin: 0 auto;
     background-color: white;
-    padding: 18px;
+    padding: 17px;
     border-radius: 17px;
     text-align: center;
 }
@@ -29,8 +30,9 @@ body main .cartao .textos {
     padding: 22px 10px;
 }
 
-body main .cartao .textos h2{
+body main .cartao .textos h1{
     color: hsl(218, 44%, 22%);
+    font-size: 25px;
     padding-bottom: 15px;
 }
 
